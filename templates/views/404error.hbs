@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>headerlinks}}
+</head>
+<body>
+    <!-- header section  -->
+
+    {{>navbar}}
+
+    <!-- body section -->
+
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 max-auto">
+                <div class="row">
+                    <!-- left side div -->
+                    <div class="col-md-12 col-12 main_header_left align-items-center">
+                        <figure class="errimg">
+                         <img src="images/error_404.jpg" alt="sayan" class="img-fluid" title="sayan weather">
+                        </figure>
+                    
+                        <p>Ahh, Something Went Wrong.</p>
+                        <h1>{{errorMsg}}</h1>
+                        <a href="/"><button>Go Back</button></a>
+                    </div>
+                    <!-- right side div -->
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- footer section -->
+
+    {{>footer}}
+   
+</body>
+</html>
